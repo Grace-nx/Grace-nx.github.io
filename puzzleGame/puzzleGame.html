@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>puzzleGame</title>
+<script src="script.js"></script>
+     <style>
+     body {
+       background-color: #F5F5DC;
+       font-family: "华文黑体",sans-serif;
+      }
+       </style>
+  </head>
+
+  <body>
+      <h1 style="padding:20px;text-align:center">-有趣的隐藏性格测试!-</h1>
+      <p style="text-align:center">
+        <b>下列的五种情绪，哪种最容易让你流泪？</b></br></br>
+        <b><font color="MediumPurple">感动</font></b>
+        、
+        <b><font color="SeaGreen">伤心</font></b>
+        、
+        <b><font color="SteelBlue">痛</font></b>
+        、
+        <b><font color="GoldenRod">生气</font></b>
+        、
+        <b><font color="Brown">紧张/担心</font></b></br>
+        <br>请按照程度从1-5排序，将排序的数字写在对应的方框中。
+      </p>
+
+      <form style="text-align:center">
+			<label for="move">感动：</label><input type="text" id="move">
+                  <br/>
+			<label for="sad">伤心：</label><input type="text" id="sad">
+                  <br/>
+   		<label for="pain">痛：</label><input type="text" id="pain">
+                  <br/>
+			<label for ="angry">生气：</label><input type="text" id="angry">
+                  <br/>
+			<label for="nervous">紧张/担心：</label><input type="text" id="nervous">
+			</form>
+      <p style="text-align:center;font-weight: bold;">你排好顺序了吗？来看看你的隐藏性格吧！</p>
+
+      <p style="text-align:center">
+      在跟你不熟的人眼中，你是：<button onclick="result1()">Check</button></br>
+      在跟你很熟的人心中，你是：<button onclick="result2()">Check</button></br>
+      你希望别人觉得你是：<button onclick="result3()">Check</button></br>
+      你最希望你的伴侣是：<button onclick="result4()">Check</button></br>
+      最真实的你的样子是：<button onclick="result5()">Check</button></br>
+    </p>
+</body>
+
+</html>
